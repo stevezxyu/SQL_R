@@ -1,0 +1,67 @@
+---
+title: "Test"
+author: "Steve Yu"
+date: "2017年8月13日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## My First R Markdown
+
+### Math Formula
+
+$$h(x) = \theta^Tx$$
+
+### 我最喜歡的食物
+
+冰淇淋、炸雞、漢堡、垃圾食物等。
+
+- 碳水化合物
+    - 炒飯
+    - 炒麵
+    - 拉麵
+- 脂肪
+- 蛋白質
+    - [Peter Lugar 牛排](https://peterluger.com/)
+    - 豬排
+    - 雞排
+    
+### 我最喜歡的程式語言
+
+```{r out.width="300px", echo=FALSE}
+library(knitr)
+include_graphics("https://s-media-cache-ak0.pinimg.com/originals/85/67/40/85674033caa7be6b7bb8f1dda24b5edc.jpg")
+```
+
+![](https://s-media-cache-ak0.pinimg.com/originals/85/67/40/85674033caa7be6b7bb8f1dda24b5edc.jpg)
+
+```{r results='hold'}
+print("Hello R!")
+summary(iris)
+```
+
+### 我最喜歡的圖形
+
+```{r}
+plot(iris)
+```
+
+```{r fig.align='center', fig.height=3, fig.width=5}
+plot(iris)
+```
+
+## 那些電影教我的事
+
+Forrest Gump:
+
+> My mama always said, ‘Life was like a box of chocolates. You never know what you’re gonna get.
+
+## 我最喜歡的樂團
+
+|樂團|主唱|
+|----|----|
+|Beyond|黃家駒|
+|The Beatles|John Lennon|
